@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./test-logo.webp" type="image/webp">
+    <title>Italian A1.1 Mock Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-screen" id="welcomeScreen">
+            <h1>🇮🇹 Italian A1.1 Mock Test</h1>
+            <div style="margin: 30px 0;">
+                <input type="text" id="userName" placeholder="Enter your name" style="text-transform: capitalize;">
+                <button class="btn btn-primary" onclick="startTest()">Start Test</button>
+            </div>
+            <div id="previousResults"></div>
+        </div>
+
+        <div id="testInterface" class="hidden">
+            <div class="timer" id="timer">Time: 02:00:00</div>
+            <form id="testForm" onsubmit="submitTest(event)"></form>
+        </div>
+
+        <div id="resultSection" class="hidden"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
