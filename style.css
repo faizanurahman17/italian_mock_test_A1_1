@@ -95,7 +95,7 @@ input[type="text"], select, textarea {
     width: 100%;
     background: #ffffff80;
     backdrop-filter: blur(10px);
-    color: white;
+    color: black;
     font-size: 2rem;
 
 }
