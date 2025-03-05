@@ -93,6 +93,11 @@ input[type="text"], select, textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 100%;
+    background: #ffffff80;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 2rem;
+
 }
 
 .conjugation-grid {
@@ -116,5 +121,9 @@ input[type="text"], select, textarea {
 
 .rahman-production {
     color: #88cbc1!important;
-    font-size: 1.2rem;
+}
+
+.container{
+    background: linear-gradient(90deg,green 33.33%, white 33.33%, white 66.66%, red 66.66%);
+    filter: grayscale(10%);
 }

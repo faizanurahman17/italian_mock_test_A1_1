@@ -108,6 +108,8 @@ function startTest() {
     if (!userName) {
         alert('Please enter your name!');
         return;
+    } else if (userName) {
+        alert(`All the best Signore/Signora ${userName} 😇`);
     }
     
     document.getElementById('welcomeScreen').classList.add('hidden');
